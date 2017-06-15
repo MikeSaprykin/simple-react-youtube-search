@@ -6,7 +6,9 @@
   "repository": "https://github.com/MikeSaprykin/simple-react-youtube-search.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "node ./node_modules/webpack/bin/webpack",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "commit": "git-cz",
     "test:watch": "npm run test -- --watch"
   },
   "author": "",
